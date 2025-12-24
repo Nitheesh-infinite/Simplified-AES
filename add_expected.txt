@@ -1,0 +1,23 @@
+currentState  | roundKey |  nextState
+---------------------------------------------------------------
+0000000000000000 | 0000000000000000 | 0000000000000000
+ffffffffffffffff | 0000000000000000 | ffffffffffffffff
+aaaaaaaaaaaaaaaa | 5555555555555555 | ffffffffffffffff
+123456789abcdef0 | 0f1e2d3c4b5a6978 | 1d2a7b44d1e6b788
+89abcdef01234567 | 76543210fedcba98 | ffffffffffffffff
+deadbeefcafebabe | 0123456789abcdef | df8efb8843557751
+fedcba9876543210 | 0011223344556677 | fecd98ab32015467
+cafed00d12345678 | 0badf00d87654321 | c153200095511559
+1111111111111111 | 2222222222222222 | 3333333333333333
+aaaaaaaa55555555 | 33333333cccccccc | 9999999999999999
+0f0f0f0f0f0f0f0f | f0f0f0f0f0f0f0f0 | ffffffffffffffff
+13579bdf2468ace0 | fedcba9876543210 | ed8b2147523c9ef0
+aaaaaaaaffffffff | 5555555500000000 | ffffffffffffffff
+0000ffff0000ffff | ffff0000ffff0000 | ffffffffffffffff
+7fffffffffffffff | 8000000000000000 | ffffffffffffffff
+cafebabecafebabe | deadbeefdeadbeef | 1453045114530451
+0123456789abcdef | f0e1d2c3b4a59687 | f1c297a43d0e5b68
+abcdef0123456789 | 13579bdf2468ace0 | b89a74de072dcb69
+aaaaaaaa00000000 | 55555555ffffffff | ffffffffffffffff
+1122334455667788 | 99aabbccddeeff00 | 8888888888888888
+---- Testbench Completed ----

@@ -1,0 +1,22 @@
+---- NextKey Testbench ----
+Case1 : currentKey=123456789abcdef0 nextKey=23456789abcdef01
+Case2 : currentKey=0f1e2d3c4b5a6978 nextKey=f1e2d3c4b5a69780
+Case3 : currentKey=89abcdef01234567 nextKey=9abcdef012345678
+Case4 : currentKey=fedcba9876543210 nextKey=edcba9876543210f
+Case5 : currentKey=cafebabedeadc0de nextKey=afebabedeadc0dec
+Case6 : currentKey=deadbeefcafed00d nextKey=eadbeefcafed00dd
+Case7 : currentKey=0ace0ace0ace0ace nextKey=ace0ace0ace0ace0
+Case8 : currentKey=13579bdf2468ace0 nextKey=3579bdf2468ace01
+Case9 : currentKey=02468ace13579bdf nextKey=2468ace13579bdf0
+Case10: currentKey=55aa33cc77ee99bb nextKey=5aa33cc77ee99bb5
+Case11: currentKey=1122334455667788 nextKey=1223344556677881
+Case12: currentKey=8877665544332211 nextKey=8776655443322118
+Case13: currentKey=a1b2c3d4e5f60718 nextKey=1b2c3d4e5f60718a
+Case14: currentKey=1f2e3d4c5b6a7988 nextKey=f2e3d4c5b6a79881
+Case15: currentKey=ff00ff00ff00ff00 nextKey=f00ff00ff00ff00f
+Case16: currentKey=00ff00ff00ff00ff nextKey=0ff00ff00ff00ff0
+Case17: currentKey=1234567812345678 nextKey=2345678123456781
+Case18: currentKey=89abcdef89abcdef nextKey=9abcdef89abcdef8
+Case19: currentKey=0102030405060708 nextKey=1020304050607080
+Case20: currentKey=f1e2d3c4b5a69788 nextKey=1e2d3c4b5a69788f
+---- Testbench Completed ----

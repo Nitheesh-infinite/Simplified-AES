@@ -1,0 +1,23 @@
+   plaintext                  |   secretKey                   |   ciphertext
+---------------------------------------------------------------
+0000000000000000 | 0000000000000000 | 0000000000000000
+ffffffffffffffff | 0000000000000000 | ffffffffffffffff
+aaaaaaaaaaaaaaaa | 5555555555555555 | 0000000000000000
+123456789abcdef0 | 0f1e2d3c4b5a6978 | b644a1084a405e16
+89abcdef01234567 | 76543210fedcba98 | e0237ac945bce994
+deadbeefcafebabe | 0123456789abcdef | 8b6ff6bdb3284100
+fedcba9876543210 | 0011223344556677 | c5615b97fc37bba8
+cafed00d12345678 | 0badf00d87654321 | ca6c32d9deace748
+1111111111111111 | 2222222222222222 | 4444444444444444
+aaaaaaaa55555555 | 33333333cccccccc | 0c3d33febdc8edd3
+0f0f0f0f0f0f0f0f | f0f0f0f0f0f0f0f0 | 0f0f3f3f0f0f3f3f
+13579bdf2468ace0 | fedcba9876543210 | 88b0a6ef0d1a2f42
+aaaaaaaaffffffff | 5555555500000000 | fb3c9ec09a2ec222
+0000ffff0000ffff | ffff0000ffff0000 | 19d1ffed99cd1fd8
+7fffffffffffffff | 8000000000000000 | fffff17fff0f4a8b
+cafebabecafebabe | deadbeefdeadbeef | 500ab2c4f6a6d616
+0123456789abcdef | f0e1d2c3b4a59687 | ec5861193b4c8449
+abcdef0123456789 | 13579bdf2468ace0 | 8383ed29ce72c5ec
+aaaaaaaa00000000 | 55555555ffffffff | 80e600e00a9cb000
+1122334455667788 | 99aabbccddeeff00 | b693092d1dd743b0
+---- Testbench Completed ----

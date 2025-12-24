@@ -1,0 +1,22 @@
+---- Round Module Testbench ----
+Case1 : currentState=0000000000000000 roundKey=0000000000000000 nextState=6666666666666666
+Case2 : currentState=ffffffffffffffff roundKey=ffffffffffffffff nextState=6666666666666666
+Case3 : currentState=aaaaaaaaaaaaaaaa roundKey=5555555555555555 nextState=2222222222222222
+Case4 : currentState=123456789abcdef0 roundKey=0f1e2d3c4b5a6978 nextState=d41aa703370888ee
+Case5 : currentState=fedcba9876543210 roundKey=89abcdef01234567 nextState=d0b5e728f2fb05d1
+Case6 : currentState=cafebabedeadc0de roundKey=deadbeefcafed00d nextState=cbd47f28dd1086ec
+Case7 : currentState=0ace0ace0ace0ace roundKey=13579bdf2468ace0 nextState=0522cab8517ecbb1
+Case8 : currentState=02468ace13579bdf roundKey=55aa33cc77ee99bb nextState=a3a7626b3465b552
+Case9 : currentState=1122334455667788 roundKey=8877665544332211 nextState=83c7bb117bc0aabb
+Case10: currentState=a1b2c3d4e5f60718 roundKey=1f2e3d4c5b6a7988 nextState=1892d018629b1132
+Case11: currentState=ff00ff00ff00ff00 roundKey=00ff00ff00ff00ff nextState=6969666696969999
+Case12: currentState=1234567812345678 roundKey=89abcdef89abcdef nextState=52af47d08d70f265
+Case13: currentState=0102030405060708 roundKey=f1e2d3c4b5a69788 nextState=f754bea08350ffe2
+Case14: currentState=9999999999999999 roundKey=1111111111111111 nextState=3333333333333333
+Case15: currentState=2468ace02468ace0 roundKey=13579bdf13579bdf nextState=b3888daaccf7eec9
+Case16: currentState=0f0f0f0f0f0f0f0f roundKey=f0f0f0f0f0f0f0f0 nextState=6666999966669999
+Case17: currentState=cafed00ddeadc0de roundKey=feedfacecafebeef nextState=eb949428dd10e80e
+Case18: currentState=1111222233334444 roundKey=aaaabbbbccccdddd nextState=1111bbbb88880000
+Case19: currentState=1357246813572468 roundKey=2468135724681357 nextState=af2be95a67e31ead
+Case20: currentState=ffffffff00000000 roundKey=00000000ffffffff nextState=9999999999999999
+---- Testbench Completed ----
